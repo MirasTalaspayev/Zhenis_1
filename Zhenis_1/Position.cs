@@ -9,6 +9,6 @@ namespace Zhenis_1
     public class Position
     {
         public string name;
-        public int significance;
+        public string significance;
     }
 }

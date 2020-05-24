@@ -33,19 +33,13 @@ namespace Zhenis_1
                 return worksheet.Cells[row, column].Value2;
             return "\0";
         }
-        public int Color(int row, int column)
+        public string Color(int row, int column)
         {
             string col = worksheet.Cells[row, column].Interior.Color.ToString();
             
-            string color = "";
-            if (col == "255") color = "Red";
-            else if (col == "65535") color = "Yellow";
-
-            if (color == ConsoleColor.Red.ToString())
-                return 0;
-            else if (color == ConsoleColor.Yellow.ToString())
-                return 1;
-            return 2;
+            if (col == "255") return "Оновной"; // This is Red color
+            else if (col == "65535") return "второстпеннный"; // This is Yellow color
+            return "Общий"; // Any other
         }
         public void Close()
         {

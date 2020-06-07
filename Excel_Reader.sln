@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhenis_1", "Zhenis_1\Zhenis_1.csproj", "{5410933B-D399-461F-B730-5204356D1A0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel_Reader", "Zhenis_1\Excel_Reader.csproj", "{5410933B-D399-461F-B730-5204356D1A0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

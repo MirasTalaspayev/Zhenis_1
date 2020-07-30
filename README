@@ -1,1 +1,0 @@
-This programm reads all cells in every sheet in excel file. Then, main .cs file creates the List of Documents (new class with other classes within).   
